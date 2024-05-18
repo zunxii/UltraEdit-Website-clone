@@ -1,0 +1,187 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+    align-items: center ;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    }
+#Sec{
+    color: #3f3f3f;
+}
+
+img{
+    height: 60px;
+    cursor: pointer;
+}
+.main{
+
+margin: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+
+   
+}
+.head{
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+h2{
+    font-weight:normal;
+    font-size: 28px;
+}
+.ver{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    }
+.download{
+    height: 50px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #00B6D1;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+
+}
+.card{
+    height: 160px;
+    width: 244px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 246px 246px 246px;
+    row-gap: 5px;
+    column-gap: 5px;
+    padding-top: 50px;
+    
+}
+.card>button{
+    width: 180px;
+    height: 40px;
+    background-color: #5CB85C;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.card:first-child{
+    display: flex;
+    gap: 50px;
+}
+h5{
+    font-weight: lighter;
+}
+h3{
+    font-weight: bold;
+}
+small{
+    font-weight: lighter;
+}
+.letter{
+    height: 95vh;
+    width: 100%vh;
+    background-color: #222222;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.one{
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 130px;
+}
+.two{
+   grid-column: 1/4;
+   margin-left: 140px;
+   line-height: 1.5;
+   padding-right: 20px;
+   margin-right: 90px;
+}
+.signup{
+    width: 345px;
+    height: 265px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.sign{
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: #00B6D1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#email{
+    width: 190px;
+    height: 40px;
+    border : 0.3px solid grey;
+}
+#subscribe{
+    color: #00B6D1;
+    font-weight: normal;
+    font-size: 24px;
+    
+}
+h6{
+    font-weight: normal;
+}
+.footer{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 60px;
+    height: 600px;
+    
+}
+li{
+    list-style: none;
+    font-weight: lighter;
+    cursor: pointer;
+    font-size: 14px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#last{
+    height: 50px;
+}
